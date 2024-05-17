@@ -4,8 +4,7 @@ import requests
 from io import StringIO
 
 github_csv_url = 'https://raw.githubusercontent.com/Howard0518/jira_demo_2/main/pet_owners.csv'
-token = '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'
-
+token = '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'
 headers = {'Authorization': f'token {token}'}
 
 response = requests.get(github_csv_url, headers=headers)
